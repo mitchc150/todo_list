@@ -14,7 +14,7 @@ const InputTodo = () => {
                 body: JSON.stringify(body)
             });
 
-            window.location.reload();   
+            window.location = "/";   
 
         } catch (err) {
             console.error(err.message);
